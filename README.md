@@ -4,7 +4,7 @@
 
 > A curated list of _awesome_ tools and projects within the Seal ecosystem.
 
-Seal is programmable access control for Web3 — secure, composable, and threshold-based.
+[Seal](https://github.com/MystenLabs/seal/) is programmable access control for Web3 — secure, composable, and threshold-based.
 
 > [!NOTE]
 > The projects and tools listed in this repository are provided as community-curated examples of how Seal can be used in real-world solutions or alongside complementary tools. Inclusion in this list does not imply endorsement by Mysten Labs.
