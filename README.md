@@ -6,15 +6,13 @@
 
 [Seal](https://github.com/MystenLabs/seal/) is programmable access control for Web3 — secure, composable, and threshold-based.
 
-> [!NOTE]
-> The projects and tools listed in this repository are provided as community-curated examples of how Seal can be used in real-world solutions or alongside complementary tools. Inclusion in this list does not imply endorsement by Mysten Labs.
->
-> Mysten Labs does not make any guarantees regarding the quality, security, reliability, or ongoing maintenance of the listed projects. Users are encouraged to review and assess each project independently before use. Any use of these tools is done at your own discretion and risk.
+[**Refer to the Disclaimer here**](DISCLAIMER.md)
 
 [**Submit your own developer tool here**](CONTRIBUTING.md)
 
 ## Infra and tools
 
+- [Tusky Token-Gated Access](https://github.com/tusky-io/tusky-smart-contracts/blob/main/TGA.md) - [Tusky’s](https://tusky.io/) token-gated access (TGA) capability lets you restrict vault content exclusively to users holding specific tokens. Built with Seal, it enables secure, composable token-based access to encrypted files in private vaults.
 - [Decryptable Move Enum](https://github.com/studio-mirai/decryptable) - A Sui Move package implements a `Decryptable` enum which stores a decryptable piece of data. Recommends Seal for encryption.
 - [Dominion Lancer](https://lancer.dominion.zone/) - [Github repo](https://github.com/dominion-zone/dominion-lancer): A secure and confidential platform for responsible vulnerability disclosure on the Sui blockchain. Submit exploits via trusted enclaves, generate verifiable evidence, and enable safe, onchain researcher rewards.
 
