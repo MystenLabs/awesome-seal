@@ -4,7 +4,7 @@
 
 > A curated list of _awesome_ tools and projects within the Seal ecosystem.
 
-[Seal](https://github.com/MystenLabs/seal/) is programmable access control for Web3 — secure, composable, and threshold-based.
+[Seal](https://seal.mystenlabs.com/) is programmable access control for Web3 — secure, composable, and threshold-based.
 
 [**Refer to the Disclaimer here**](DISCLAIMER.md)
 
@@ -12,6 +12,8 @@
 
 ## Infra and tools
 
+- [Sui Stack Messaging SDK](https://github.com/MystenLabs/sui-stack-messaging-sdk) - A complete, end-to-end encrypted messaging solution for Web3 applications. It uses Seal to encrypt messages and attachments, with programmable access policies for message channels.
+- [Distributed Key Vault for Nautilus Enclaves](https://github.com/lockin-bot/seal-kms) - A safer, zero-trust key vault for apps that use [Nautilus](https://sui.io/nautilus). The master key lives inside a Nautilus enclave itself, and that is secured with Seal. When a Nautilus-based service needs access, the enclave proves it’s legit and derives a use-specific key. The master key never leaves or gets exposed.
 - [Tusky Token-Gated Access](https://github.com/tusky-io/tusky-smart-contracts/blob/main/TGA.md) - [Tusky’s](https://tusky.io/) token-gated access (TGA) capability lets you restrict vault content exclusively to users holding specific tokens. Built with Seal, it enables secure, composable token-based access to encrypted files in private vaults.
 - [Decryptable Move Enum](https://github.com/studio-mirai/decryptable) - A Sui Move package implements a `Decryptable` enum which stores a decryptable piece of data. Recommends Seal for encryption.
 - [Dominion Lancer](https://lancer.dominion.zone/) - [Github repo](https://github.com/dominion-zone/dominion-lancer): A secure and confidential platform for responsible vulnerability disclosure on the Sui blockchain. Submit exploits via trusted enclaves, generate verifiable evidence, and enable safe, onchain researcher rewards.
@@ -25,3 +27,6 @@
 - [Mandy](https://mandylab.vercel.app/) - [Github repo](https://github.com/rzexin/Mandy): Mandy is a Sui-based dApp for sending encrypted `time capsule` letters unlockable at a future date. Seal handles encryption and timed decryption, while attachments are securely stored in Walrus.
 - [SuiShare](https://sui-share.vercel.app/) - [Github repo](https://github.com/xiaodi007/suiShare): SuiShare is a decentralized content publishing platform on Sui for encrypted media like images, videos, and markdown. It gives creators full ownership, access control, and monetization tools in a censorship-resistant environment.
 - [DemoDock](https://demo-dock.vercel.app/) - [Github repo](https://github.com/404ll/DemoDock/blob/main/README_EN.md): DemoDock is a decentralized platform for Web3 developers to securely store, manage, and showcase demo projects. It uses Seal for encryption, Walrus for storage, and gives creators and admins a private, organized space for collaboration and review.
+
+> [!NOTE]
+> Check out other partners who're integrating Seal in their apps and platforms at [seal.mystenlabs.com](https://seal.mystenlabs.com/).
