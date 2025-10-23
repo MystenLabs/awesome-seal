@@ -12,6 +12,7 @@
 
 ## Infra and tools
 
+- [Seal Rust SDK](https://github.com/gfusee/seal-sdk-rs) - A community-maintained Rust SDK for Seal, providing idiomatic bindings to encrypt, decrypt, and interact with Seal key servers and policies.
 - [Sui Stack Messaging SDK](https://github.com/MystenLabs/sui-stack-messaging-sdk) - A complete, end-to-end encrypted messaging solution for Web3 applications. It uses Seal to encrypt messages and attachments, with programmable access policies for message channels.
 - [Distributed Key Vault for Nautilus Enclaves](https://github.com/lockin-bot/seal-kms) - [Lockin Bot's](https://lockin.bot/) zero-trust key vault for [Nautilus](https://sui.io/nautilus) based apps. The master key lives inside a Nautilus enclave itself, and that is secured with Seal. When a Nautilus-based service needs access, the enclave proves it’s legit and derives a use-specific key. The master key never leaves or gets exposed.
 - [Tusky Token-Gated Access](https://github.com/tusky-io/tusky-smart-contracts/blob/main/TGA.md) - [Tusky’s](https://tusky.io/) token-gated access (TGA) capability lets you restrict vault content exclusively to users holding specific tokens. Built with Seal, it enables secure, composable token-based access to encrypted files in private vaults.
