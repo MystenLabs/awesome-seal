@@ -21,6 +21,7 @@
 
 ## B2B and B2C projects
 
+- [Article Garden](https://article.garden/) - [Github repo](https://github.com/jnaulty/article-garden): A decentralized, privacy-first publishing platform on Sui, like Substack meets encryption, where content is end-to-end encrypted, subscriptions are NFTs, and privacy is the default.
 - [Epoch One](https://epoch-one.vercel.app/) - [Github repo](https://github.com/T-adero1/epoch_one): EpochOne E-Sign is a contract management platform that merges traditional e-signatures with blockchain security. Users can create, manage, and sign contracts with cryptographic protection and decentralized storage.
 - [Zeroleaks](https://www.zeroleaks.xyz/) - [Docs](https://zeroleaks.notaku.site/): ZeroLeaks is a secure, anonymous, and verifiable whistleblowing platform built on the Sui blockchain. It uses zero-knowledge proofs to protect whistleblowers while proving the authenticity of leaked documents.
 - [Sui Shadow](https://sui-shadow.vercel.app/) - [Github repo](https://github.com/Sahilgill24/SuiShadow): Sui Shadow is a privacy-first art platform on Sui where artists encrypt hidden artworks into NFTs using Seal-powered access control. Encrypted chunks are stored off-chain in Walrus, and collectors unlock them post-purchase for a secure, suspenseful reveal.
