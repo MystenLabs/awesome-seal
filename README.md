@@ -30,6 +30,7 @@
 - [Mandy](https://mandylab.vercel.app/) - [Github repo](https://github.com/rzexin/Mandy): Mandy is a Sui-based dApp for sending encrypted `time capsule` letters unlockable at a future date. Seal handles encryption and timed decryption, while attachments are securely stored in Walrus.
 - [SuiShare](https://sui-share.vercel.app/) - [Github repo](https://github.com/xiaodi007/suiShare): SuiShare is a decentralized content publishing platform on Sui for encrypted media like images, videos, and markdown. It gives creators full ownership, access control, and monetization tools in a censorship-resistant environment.
 - [DemoDock](https://demo-dock.vercel.app/) - [Github repo](https://github.com/404ll/DemoDock/blob/main/README_EN.md): DemoDock is a decentralized platform for Web3 developers to securely store, manage, and showcase demo projects. It uses Seal for encryption, Walrus for storage, and gives creators and admins a private, organized space for collaboration and review.
+- [Elur](https://github.com/calderonarchibaldo2/Elur) - [Docs](https://github.com/calderonarchibaldo2/Elur#readme): Elur is non-custodial, revocable file sharing on Sui. Encrypt any file on your device, share it through any channel, then revoke, expire, or limit access at any time — enforced on-chain by Seal's seal_approve gate. zkLogin and Enoki make it wallet-free and seedless, so non-crypto users just sign in with Google.
 
 > [!NOTE]
 > Check out other partners who're integrating Seal in their apps and platforms at [seal.mystenlabs.com](https://seal.mystenlabs.com/).
