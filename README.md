@@ -19,6 +19,7 @@
 - [Tusky Token-Gated Access](https://github.com/tusky-io/tusky-smart-contracts/blob/main/TGA.md) - [Tusky’s](https://tusky.io/) token-gated access (TGA) capability lets you restrict vault content exclusively to users holding specific tokens. Built with Seal, it enables secure, composable token-based access to encrypted files in private vaults.
 - [Decryptable Move Enum](https://github.com/studio-mirai/decryptable) - A Sui Move package implements a `Decryptable` enum which stores a decryptable piece of data. Recommends Seal for encryption.
 - [Dominion Lancer](https://lancer.dominion.zone/) - [Github repo](https://github.com/dominion-zone/dominion-lancer): A secure and confidential platform for responsible vulnerability disclosure on the Sui blockchain. Submit exploits via trusted enclaves, generate verifiable evidence, and enable safe, onchain researcher rewards.
+- [Sealed Ballot](https://seal-voting.vercel.app/) - [Github repo](https://github.com/MystenLabs/sealed-ballot): A demo of Seal's onchain decryption. Whitelisted voters cast threshold-encrypted votes that stay secret until the vote closes, after which the Seal derived keys are submitted and the votes are decrypted and tallied in Move. A small, documented reference for building sealed-bid auctions, timelocked votes, and similar commit-then-reveal flows.
 
 ## B2B and B2C projects
 
